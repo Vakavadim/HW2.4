@@ -20,6 +20,7 @@ class PhotoViewController: UIViewController {
         super.viewDidLoad()
         imageLabel.text = imageTitle
         imagePhoto.image = UIImage(named: imageTitle)
+        
     }
     
 
